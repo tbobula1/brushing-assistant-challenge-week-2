@@ -25,14 +25,17 @@ basic.forever(function () {
     if (timer == 30) {
         basic.showIcon(IconNames.Happy)
         music.startMelody(music.builtInMelody(Melodies.Funk), MelodyOptions.Once)
+        basic.clearScreen()
     }
     if (timer == 60) {
         basic.showIcon(IconNames.Happy)
         music.startMelody(music.builtInMelody(Melodies.Funk), MelodyOptions.Once)
+        basic.clearScreen()
     }
     if (timer == 90) {
         basic.showIcon(IconNames.Happy)
         music.startMelody(music.builtInMelody(Melodies.Funk), MelodyOptions.Once)
+        basic.clearScreen()
     }
     if (timer == 120) {
         basic.showIcon(IconNames.Happy)
